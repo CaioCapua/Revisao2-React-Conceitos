@@ -28,6 +28,8 @@ export function TaskList() {
     }
 
     setTasks([...tasks, createNewTask]);
+    
+    setNewTaskTitle('');
   }
 
   function handleToggleTaskCompletion(id: number) {
